@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.buttonbar {
+	float: left;
+	color: #FFF;
+	background-color: #5995DA;
+	width: 100%;
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-around;
+}
+
+.button {
+	display: block;
+	width: 100%;
+	color: #FFF;
+	background-color: #5995DA;
+	font-weight: bold;
+	padding: 20px;
+	text-align: center;
+	border: 1px solid black;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.button:link {
+	text-decoration: none;
+}
+
+
+.button:hover {
+	background-color: #76AEED;
+}
+
+.button:active {
+	color: #FFF;
+	background-color: #5995DA;
+}
